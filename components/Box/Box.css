@@ -4,25 +4,28 @@
   margin: 15px;
 }
 
-.Box .Dropdown {
+.Box {
   display: flex;
   align-content: center;
   color: black;
   border: 3px solid black;
-  width: 150px;
-  height: 50px;
-  text-align: center;
+}
+
+.Dropdown {
+  display: inline-block;
+  z-index: 2;
+  position: absolute;
 }
 
 .Dropdown--btn {
   border: 2px solid black;
+  background-color: azure;
 }
 
 .Dropdown--list {
   display: none;
   flex-direction: column;
-  color: red;
-  height: 600px;
+    color: red;
 }
 
 .selected {

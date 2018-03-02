@@ -15,6 +15,12 @@
 
 .Section__content {
   border: 5px solid green;
+  width: 45%;
+}
+
+.Section .rowDash {
+  display: flex;
+  flex-direction: row;
 }
 
 .Section__Dropdown Dropdown--list {
